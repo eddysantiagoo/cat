@@ -21,9 +21,9 @@ export function middleware(request: NextRequest) {
   )
 
   if (pathnameIsMissingLocale) {
-    const locale = getLocale(request)
-    return NextResponse.redirect(
-      new URL(`/${locale}${pathname}`, request.url)
+    // Reescribe al locale por defecto sin cambiar la URL pública
+    return NextResponse.rewrite(
+      new URL(`/${defaultLocale}${pathname}`, request.url)
     )
   }
 }

@@ -34,6 +34,7 @@ export async function generateMetadata({
       languages: {
         "en-US": `${url}/en-US`,
         "zh-CN": `${url}/zh-CN`,
+        "es-ES": `${url}/es-ES`,
       },
     },
     openGraph: {
@@ -43,6 +44,14 @@ export async function generateMetadata({
       title: dict.metadata.title,
       description: dict.metadata.description,
       siteName: dict.common.brand,
+      images: params.lang === 'es-ES' ? [
+        {
+          url: 'https://gecolsa.com/archivosestaticos/2025/04/Cilindro-hidraulico-CAT-en-corte-para-maquinaria-pesada.png.png',
+          width: 588,
+          height: 974,
+          type: 'image/png',
+        },
+      ] : undefined,
     },
     twitter: {
       card: "summary_large_image",
