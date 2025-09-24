@@ -4,7 +4,8 @@ import { NextResponse } from 'next/server'
 import type { NextRequest } from 'next/server'
 import { locales, defaultLocale } from './i18n/config'
 
-function getLocale(request: NextRequest): string {
+
+/**function getLocale(request: NextRequest): string {
   const negotiatorHeaders: Record<string, string> = {}
   request.headers.forEach((value, key) => (negotiatorHeaders[key] = value))
 
@@ -12,7 +13,7 @@ function getLocale(request: NextRequest): string {
   const localeList = [...locales]
   
   return matchLocale(languages, localeList, defaultLocale)
-}
+}*/
 
 export function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname
