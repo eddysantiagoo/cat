@@ -1,0 +1,253 @@
+{
+    "nav": {
+      "features": "Funciones",
+      "blog": "Blog",
+      "pricing": "Precios",
+      "docs": "Documentación",
+      "signin": "Iniciar sesión",
+      "download": "Descargar",
+      "signout": "Cerrar sesión",
+      "profile": "Perfil"
+    },
+    "home": {
+      "hero": {
+        "title": "Navega con mayor eficiencia",
+        "description": "Nuestra extensión de Chrome te ayuda a gestionar mejor las pestañas y mejorar la productividad",
+        "learnMore": "Saber más",
+        "watchDemo": "Ver demo"
+      },
+      "cta": {
+        "title": "Empieza ahora",
+        "description": "Descarga gratis nuestra extensión de Chrome y mejora tu experiencia de navegación",
+        "button": "Obtener la extensión de Chrome"
+      }
+    },
+    "footer": {
+      "product": "Producto",
+      "resources": "Recursos",
+      "social": "Social",
+      "support": "Soporte",
+      "company": "Empresa",
+      "copyright": "© 2024 Extensión de Chrome. Todos los derechos reservados.",
+      "links": {
+        "features": "Funciones",
+        "pricing": "Precios",
+        "changelog": "Registro de cambios",
+        "roadmap": "Hoja de ruta",
+        "docs": "Documentación",
+        "dev": "Desarrollo",
+        "api": "API",
+        "faq": "Preguntas frecuentes",
+        "help": "Ayuda",
+        "contact": "Contacto",
+        "feedback": "Comentarios",
+        "status": "Estado",
+        "about": "Acerca de",
+        "terms": "Términos",
+        "privacy": "Privacidad",
+        "jobs": "Empleo",
+        "blog": "Blog",
+        "twitter": "Twitter",
+        "github": "GitHub",
+        "jike": "Jike",
+        "xhs": "XiaoHongShu",
+        "bento": "Bento",
+        "freeourdays": "Free Our Days",
+        "githubtree": "Mapa de árbol de GitHub",
+        "distributer": "Distribuidor"
+      }
+    },
+    "metadata": {
+      "title": "Extensión de Chrome - Mejora tu experiencia de navegación",
+      "description": "Una potente extensión de Chrome que te ayuda a gestionar mejor las pestañas y mejorar la productividad",
+      "keywords": "Extensión de Chrome, Gestión de pestañas, Herramientas de productividad, Extensiones de navegador"
+    },
+    "common": {
+      "brand": "Extensión de Chrome",
+      "loading": "Cargando..."
+    },
+    "features": {
+      "title": "Funciones potentes",
+      "description": "Explora nuestras funciones principales para llevar tu experiencia de navegación al siguiente nivel",
+      "tabs": {
+        "title": "Gestión de pestañas",
+        "description": "Gestiona fácilmente tus pestañas para aumentar la productividad"
+      },
+      "bookmarks": {
+        "title": "Gestión de marcadores",
+        "description": "Accede rápidamente a tus marcadores para mejorar la eficiencia de navegación"
+      },
+      "share": {
+        "title": "Compartir",
+        "description": "Comparte tus pestañas fácilmente para impulsar la eficiencia de colaboración"
+      },
+      "security": {
+        "title": "Seguridad",
+        "description": "Protege tu privacidad y mejora la seguridad de la navegación"
+      }
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "description": "Encuentra respuestas a las preguntas más comunes",
+      "tabs": {
+        "general": "General",
+        "features": "Funciones",
+        "technical": "Técnico"
+      },
+      "questions": {
+        "general": [
+          {
+            "question": "¿Esta extensión es gratuita?",
+            "answer": "Sí, ofrecemos una versión gratuita para todos los usuarios. También disponemos de una versión Pro de pago con funciones avanzadas adicionales."
+          },
+          {
+            "question": "¿Cómo instalo la extensión?",
+            "answer": "Puedes descargarla directamente desde Chrome Web Store o hacer clic en el botón 'Descargar' en nuestro sitio web."
+          }
+        ],
+        "features": [
+          {
+            "question": "¿Cuántas pestañas puedo gestionar?",
+            "answer": "La versión gratuita permite hasta 50 pestañas, mientras que la versión Pro no tiene límite."
+          },
+          {
+            "question": "¿Admite la agrupación de pestañas?",
+            "answer": "Sí, admitimos tanto la agrupación personalizada como la agrupación inteligente."
+          }
+        ],
+        "technical": [
+          {
+            "question": "¿Qué navegadores son compatibles?",
+            "answer": "Actualmente es compatible con Chrome, Edge y otros navegadores basados en Chromium."
+          },
+          {
+            "question": "¿Dónde se almacenan mis datos?",
+            "answer": "Todos los datos se almacenan localmente en tu dispositivo. No subimos tus datos de navegación."
+          }
+        ]
+      }
+    },
+    "blog": {
+      "backToList": "Volver a la lista del blog",
+      "title": "Publicaciones del blog",
+      "description": "Compartimos experiencias de desarrollo de extensiones de Chrome y consejos de navegación",
+      "loadMore": "Cargar más",
+      "posts": [
+           {
+             "id": 1,
+             "title": "Guía de desarrollo de extensiones de Chrome — Inglés",
+             "description": "Aprende a desarrollar tu primera extensión de Chrome",
+             "date": "2024-03-15",
+             "readTime": "10 min de lectura",
+             "slug": "chrome-extension-development-guide"
+           }
+         ]
+    },
+    "auth": {
+      "signin": {
+        "title": "Bienvenido de nuevo",
+        "description": "Ingresa tu correo electrónico y contraseña para iniciar sesión",
+        "submitButton": "Iniciar sesión",
+        "noAccount": "¿No tienes una cuenta?",
+        "signupLink": "Regístrate",
+        "errors": {
+          "userNotFound": "Usuario no encontrado",
+          "wrongPassword": "Contraseña incorrecta"
+        },
+        "success": "¡Inicio de sesión exitoso!",
+        "error": "¡Error al iniciar sesión, por favor verifica tu correo y contraseña!"
+      },
+      "signup": {
+        "title": "Crea una cuenta",
+        "description": "Ingresa tu correo electrónico y contraseña para registrarte",
+        "submitButton": "Regístrate",
+        "hasAccount": "¿Ya tienes una cuenta?",
+        "signinLink": "Inicia sesión",
+        "success": "¡Registro exitoso!",
+        "error": "¡Error al registrarte, por favor verifica tu correo y contraseña!"
+      },
+      "form": {
+        "email": "Correo electrónico",
+        "password": "Contraseña",
+        "emailPlaceholder": "nombre@ejemplo.com",
+        "continueWith": "O continúa con",
+        "errors": {
+          "emailRequired": "Por favor ingresa tu correo electrónico",
+          "passwordRequired": "Por favor ingresa tu contraseña"
+        }
+      },
+      "signout": {
+        "success": "¡Cierre de sesión exitoso!"
+      }
+    },
+    "profile": {
+      "title": "Perfil",
+      "tabs": {
+        "profile": "Perfil",
+        "subscription": "Suscripción",
+        "settings": "Configuración"
+      },
+      "basicInfo": "Información básica",
+      "email": "Correo electrónico",
+      "joinDate": "Fecha de registro",
+      "subscription": "Suscripción",
+      "currentPlan": "Plan actual",
+      "freePlan": "Plan Gratis",
+      "proPlan": "Plan Pro",
+      "expireDate": "Fecha de vencimiento",
+      "settings": "Configuración",
+      "settingsComingSoon": "Más configuraciones próximamente..."
+    },
+    "pricing": {
+      "title": "Precios simples y transparentes",
+      "description": "Elige el plan adecuado para ti; puedes mejorar o degradar en cualquier momento",
+      "plans": {
+        "free": {
+          "name": "Gratis",
+          "price": "$0",
+          "description": "Perfecto para usuarios individuales",
+          "features": [
+            "Gestiona hasta 50 pestañas",
+            "Agrupación básica de pestañas",
+            "Marcadores rápidos",
+            "Analíticas básicas"
+          ]
+        },
+        "pro": {
+          "name": "Pro",
+          "price": "$9",
+          "description": "Ideal para usuarios avanzados",
+          "features": [
+            "Gestión ilimitada de pestañas",
+            "Agrupación avanzada de pestañas",
+            "Sincronización en la nube",
+            "Analíticas detalladas",
+            "Soporte prioritario",
+            "Temas personalizados"
+          ]
+        },
+        "team": {
+          "name": "Equipo",
+          "price": "$29",
+          "description": "Ideal para la colaboración en equipo",
+          "features": [
+            "Todas las funciones de Pro",
+            "Colaboración en equipo",
+            "Marcadores compartidos",
+            "Analíticas de equipo",
+            "Gestor dedicado",
+            "Acceso a la API"
+          ]
+        }
+      },
+      "cta": {
+        "free": "Empezar gratis",
+        "paid": "Comenzar"
+      },
+      "footer": {
+        "refund": "Todos los planes incluyen una garantía de devolución de dinero de 14 días. Si tienes preguntas,",
+        "contact": "contáctanos"
+      }
+    }
+  }
+  
