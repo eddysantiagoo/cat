@@ -1,11 +1,14 @@
-import { match as matchLocale } from '@formatjs/intl-localematcher'
-import Negotiator from 'negotiator'
+
 import { NextResponse } from 'next/server'
 import type { NextRequest } from 'next/server'
 import { locales, defaultLocale } from './i18n/config'
 
 
 /**function getLocale(request: NextRequest): string {
+ * 
+ *  import { match as matchLocale } from '@formatjs/intl-localematcher'
+import Negotiator from 'negotiator'
+ * 
   const negotiatorHeaders: Record<string, string> = {}
   request.headers.forEach((value, key) => (negotiatorHeaders[key] = value))
 
