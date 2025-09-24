@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { Chrome } from "lucide-react";
 import { getDictionary } from "@/i18n/get-dictionary";
 import type { Locale } from "@/i18n/config";
 import { NavbarActions } from "./navbar-actions";
